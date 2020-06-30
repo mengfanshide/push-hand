@@ -6,9 +6,9 @@ dist
 # !代表取反 跟踪所有lib.a 即使我们忽略了.a文件
 !lib.a
 #只忽略当前文件夹下的bin 并不忽略public/bin
-/bin
+#/bin
 #任何文件下的bin
-bin/
+#bin/
 #只忽略doc文件夹下的.txt文件 doc/server/ .txt 管不到
 #doc/*.txt
 doc/**/*.txt
